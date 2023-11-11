@@ -122,8 +122,11 @@ body {
 }
 
 .images .image {
+  max-width: 100%; 
+  max-height: 100%;
   width: 200px;
   height: 200px;
+  object-fit: cover; 
   justify-self: center;
   align-self: center;
   margin-left: 2rem;
